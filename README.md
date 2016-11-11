@@ -40,8 +40,9 @@ An efficient computing process is needed for big data base. A pygraph packaged p
 ## Description of Data
 [Back to Table of Contents] (README.md#description-of-data)
 
-** Please download `batch_payment.csv` at [https://www.dropbox.com/s/y6fige3w1ohksbd/batch_payment.csv?dl=0], change the extention to .txt, and save it (`batch_payment.txt`) under the `./paymo_input` folder;
-** Please download `stream_payment.csv` at [https://www.dropbox.com/s/vrn4pjlypwa2ki9/stream_payment.csv?dl=0], change the extention to .txt, and save it (`stream_payment.txt`) under the `./paymo_input` folder;
+** Please download `batch_payment.csv` at [https://www.dropbox.com/s/y6fige3w1ohksbd/batch_payment.csv?dl=0], change the extention to .txt and save it (`batch_payment.txt`) under the `./paymo_input` folder because the arguments in `run_sh` is based on '.txt';
+
+** Please download `stream_payment.csv` at [https://www.dropbox.com/s/vrn4pjlypwa2ki9/stream_payment.csv?dl=0], change the extention to .txt, and save it (`stream_payment.txt`) under the `./paymo_input` folder because the arguments in `run_sh` is based on '.txt';
 
 ###Input
 
