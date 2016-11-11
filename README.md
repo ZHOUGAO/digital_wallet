@@ -69,7 +69,7 @@ The outputs are written to a text file in the `paymo_output` directory. Each out
 
 Python language is used in the source code, `antifraud.py`, under the `./src` fold. 
 
-The top-most directory is called `digital-wallet-master`, which include the `paymo_input` and `paymo_output` directories, and a shell script named `run.sh`.
+The top-most directory is called `digital-wallet-master`, which include the `src`, `paymo_input`, `paymo_output`,`insight_testsuite` and `images` directories, and a shell script named `run.sh`, as well as a `README.md` file.
 
 Pygragh package need to be installed and the correspoding modules are imported at the beginning of the code.
 
@@ -79,41 +79,6 @@ Pygragh package need to be installed and the correspoding modules are imported a
 2) run: make install-core and make install-dot
 '''
 * Module graph and minmax are used here
-
-Directory structure is like:
-
-Example Repo Structure
-
-	├── README.md 
-	├── run.sh
-	├── src
-	│  	└── antifraud.java
-	├── paymo_input
-	│   └── batch_payment.csv
-	|   └── stream_payment.csv
-	├── paymo_output
-	│   └── output1.txt
-	|   └── output2.txt
-	|   └── output3.txt
-	└── insight_testsuite
-	 	   ├── run_tests.sh
-		   └── tests
-	        	└── test-1-paymo-trans
-        		│   ├── paymo_input
-        		│   │   └── batch_payment.csv
-        		│   │   └── stream_payment.csv
-        		│   └── paymo_output
-        		│       └── output1.txt
-        		│       └── output2.txt
-        		│       └── output3.txt
-        		└── your-own-test
-            		 ├── paymo_input
-        		     │   └── batch_payment.csv
-        		     │   └── stream_payment.csv
-        		     └── paymo_output
-        		         └── output1.txt
-        		         └── output2.txt
-        		         └── output3.txt
 
 
 ##Testing directory structure and output format
@@ -136,6 +101,7 @@ The output of `run_tests.sh` should look like:
 	[PASS]: test-1-paymo-trans (output3.txt)
 	[Fri Nov  4 13:20:25 PDT 2016] 3 of 3 tests passed
 on success.
+
 
 ##A simple add-on and further thoughts
 [Back to Table of Contents] (README.md#a-simple-addon-and-further-thoughts)
